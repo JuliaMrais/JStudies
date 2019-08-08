@@ -32,7 +32,7 @@ Com a resposta podemos notar X coisas:
 1. Há um arquivo modificado ou recém adicionado chamado `Text.txt`.
 1. Alguns comandos para podermos atualizarmos o repositório.
 
-Quando temos um *Untracked File* significa que este arquivo não está sendo gerenciado pelo Git, e para adicionarmos ele dentro do nosso repositório Git. Devemos fazer o uso de um dos seguintes comandos:
+Quando temos um *Untracked File* significa que este arquivo não está sendo gerenciado pelo Git, e para adicionarmos ele dentro do nosso repositório Git devemos fazer o uso de um dos seguintes comandos:
 
 ```console
     user@user-pc:~/Documents/Folder$ git add Text.txt 

@@ -47,9 +47,30 @@ O operador `NOT` inverte o sinal recebido na entrada. Então se recebermos `1` o
 
 A tabela verdade é uma representação de todas as operações realizadas com duas hipóteses, ou seja, duas entradas.
 
-P | Q | ¬P | ¬Q  
------------- | ------------- | ------------- | ------------- |
-Content cell 1 | Content cell 2 | Content cell 3| Content cell 4
-Content cell 1 | Content cell 2 | Content cell 3| Content cell 4
-Content cell 1 | Content cell 2 | Content cell 3| Content cell 4
-Content cell 1 | Content cell 2 | Content cell 3| Content cell 4
+### Tabela do `AND`
+
+P            |       Q       |      P Λ Q    
+------------ | ------------- | -------------  
+`1`          | `1`           | `1`           
+`1`          | `0`           | `0`           
+`0`          | `1`           | `0`           
+`0`          | `0`           | `0`                    
+
+### Tabela do `OR`
+
+P            |       Q       |       P ⋁ Q      
+------------ | ------------- | -------------  
+`1`          | `1`           | `1`           
+`1`          | `0`           | `1`           
+`0`          | `1`           | `1`           
+`0`          | `0`           | `0`                       
+
+### Tabela do `NOT`
+
+P            |       Q       |       ¬P      |      ¬Q       |
+------------ | ------------- | ------------- | ------------- | 
+`1`          | `1`           | `0`           | `0`
+`1`          | `0`           | `0`           | `1`
+`0`          | `1`           | `1`           | `0`
+`0`          | `0`           | `1`           | `1`            
+

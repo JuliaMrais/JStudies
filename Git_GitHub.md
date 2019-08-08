@@ -34,7 +34,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-Com a resposta podemos notar X coisas:
+Com a resposta podemos notar 3 coisas:
 
 1. Estamos no "branch" principal (master).
 1. Há um arquivo modificado ou recém adicionado chamado `Text.txt`.
@@ -60,4 +60,9 @@ Após adicionarmos os nossos arquivos e/ou nossas mudanças realizadas nos arqui
 ```console
     user@user-pc:~/Documents/Folder$ git commit -m "alguma descrição aqui" 
 ```
-__aviso__ : Caso você não coloque o '-m' o git irá abrir o seu editor de texto padrão, ou o vim/nano no seu terminal para poder então receber uma mensagem descrevendo tal `commit`.
+__aviso__ : Caso você não coloque o '`-m`' o git irá abrir o seu editor de texto padrão, ou o vim/nano no seu terminal para poder então receber uma mensagem descrevendo tal `commit`.
+
+Após o `commit` toda alteração nos arquivos será comparada com a ultima versão do arquivo que foi `commitada`. Alguns editores de código como o _Visual Studio Code_ mostra onde está sendo feito adições ou remoções no arquivo do `commit` anterior
+
+# GitHub
+

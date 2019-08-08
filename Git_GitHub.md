@@ -3,11 +3,18 @@
 O Git é um Sistema de Versionamento de Arquivos, ou seja, é um sistema que gerencia o estado e as mudanças que ocorrem em qualquer tipo de arquivo.
 
 ## Começando com o Git
+* [Git init](#Git-init)
+* [Git status](#Git-Status)
+* [Git add](#Git-add)
+
+
+### Git init 
 
 Para que um repositório(Pasta) seja gerenciado pelo Git é necessário que iniciemos um "respositório Git", então para iniciarmos o Git, devemos abrir nosso terminal e usar o comando:
 ```console
     user@user-pc:~/Documents/Folder$ git init 
 ```
+### Git Status
 Após iniciarmos um repositório git, todos os arquivos naquela pasta começam a ser monitorados pelo git. 
 Para vermos o estado de determinados arquivo usamos: 
 
@@ -31,6 +38,8 @@ Com a resposta podemos notar X coisas:
 1. Estamos no "branch" principal (master).
 1. Há um arquivo modificado ou recém adicionado chamado `Text.txt`.
 1. Alguns comandos para podermos atualizarmos o repositório.
+
+### Git add
 
 Quando temos um *Untracked File* significa que este arquivo não está sendo gerenciado pelo Git, e para adicionarmos ele dentro do nosso repositório Git devemos fazer o uso de um dos seguintes comandos:
 

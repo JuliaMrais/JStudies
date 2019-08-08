@@ -1,6 +1,6 @@
 # Lógica booleana
 
-No século 19, George Boole desenvolveu um sistema algébrico de operações binárias entre `0` e `1`, sendo essas operações:
+No século 19, George Boole desenvolveu um sistema algébrico de operações binárias entre  `0` e `1`, contendo os seguintes operadores :
 * `And` ( *  ,  Λ)
 * `Or` ( + , ⋁ )
 * `NOT` ( ¬ ) 
@@ -42,6 +42,8 @@ O operador `NOT` inverte o sinal recebido na entrada. Então se recebermos `1` o
 
 ` NOT 0 --> 1`
 
+<br>
+<br>
 
 ## Tabela verdade
 
@@ -51,8 +53,8 @@ Então sendo *P* e *Q* duas entradas, aqui temos tabelas para cada operação, c
 
 ### Tabela do `AND`
 
-*P*          |       *Q*     |      *P* Λ *Q*    
------------- | ------------- | -------------  
+*P*          |       *Q*     | *P Λ Q*     
+------------ | ------------- | -----------------  
 `1`          | `1`           | `1`           
 `1`          | `0`           | `0`           
 `0`          | `1`           | `0`           
@@ -60,7 +62,7 @@ Então sendo *P* e *Q* duas entradas, aqui temos tabelas para cada operação, c
 
 ### Tabela do `OR`
 
-*P*          |       *Q*       |       *P* ⋁ *Q*      
+*P*          |       *Q*       |       *P ⋁ Q*      
 ------------ | ------------- | -------------  
 `1`          | `1`           | `1`           
 `1`          | `0`           | `1`           

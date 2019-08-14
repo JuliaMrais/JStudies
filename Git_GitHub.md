@@ -66,4 +66,44 @@ Após o `commit` toda alteração nos arquivos será comparada com a ultima vers
 
 # GitHub
 
-O GitHub é ...
+O GitHub é uma plataforma de hospedagem de código fonte com controle de versionamento Git. Tecnicamente é uma versão remota do Git, ou seja, você tem o seu repositório local Git e pode enviar seus arquivos para um repositório remoto GitHub, armazenando suas versões na nuvem.
+
+### Git remote 
+
+O `remote` do git, se refece aos repositórios remotos ligados ao seu repositório local.
+
+Para adicionar um novo repositório remoto execute o seguinte comando no seu repositório:
+
+```console
+git remote add apelido_rep https://github.com/usuario/exemplo.git
+```
+
+> O apelido do repositório normalmente é dado como _Origin_ caso seja o repositório remoto principal.
+
+###  Git push
+
+O comando `push` é usado para "empurrar" os arquivos que estão no repositório local para o repositório remoto
+
+```console
+git push origin master
+```
+
+Nesse exemplo nós damos um `push` para que os arquivos que estão no master ( git local ) sejam enviados para o origin ( git remoto ).
+
+### Git pull 
+
+O comando `pull` é usado para "puxar" os arquivos que estão no repositório remoto para o repositório local, ou seja, caso você tenha feito a alteração a partir de outro maneira, e necessita das modificações no seu repositório local, faça:
+
+```console
+git pull 
+```
+
+### Git clone
+
+Caso seja necessário fazer uma cópia de um repositório remoto, use o `git clone` + o link do repositório remoto + .git, então:
+ 
+```console
+git clone https://github.com/usuario/exemplo.git
+```
+
+Com isso o seu computdor irá gerar uma nova pasta com todos os arquivos do repositório que você clonou.
